@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Fork', 'Spoon']
+
+roboflow:
+  workspace: tark-cucun
+  project: fork-vs-spoon-v1
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/tark-cucun/fork-vs-spoon-v1/dataset/5
